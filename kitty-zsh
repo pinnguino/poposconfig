@@ -29,11 +29,18 @@ sudo apt install snapd
  sudo snap install lsd
  sudo apt install bat
  
- 9- Make some changes to the kitty.conf with the template from https://github.com/rxyhn/dotfiles
+ 9- Make some changes to the kitty.conf with the template from [https://github.com/rxyhn/dotfiles]
  Place the config commands in the kitty.conf file in .config/kitty/kitty.conf
  
  10- Installing fonts
  HackNerdFonts - Install FiraCode
  Add "FiraCode NerdFont" to the font family section
+ 
+ 11-PowerLevel10k [https://github.com/romkatv/powerlevel10k]
+ 
+ Clone the repo in the home directory, and make a symbolic link to the .zshrc file to the root directory with sudo privilegies.
+ 
+ ln -s -f /home/pingui/.zshrc /root/.zshrc
+ 
  
  
