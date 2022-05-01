@@ -1,0 +1,11 @@
+1- Install kitty
+sudo apt install kitty
+
+2- Install ZSH
+sudo apt install zsh
+
+3- Make zsh as the default shell in the terminal
+sudo gedit .bashrc
+Add to the end of the file a new line with the following:
+exec zsh
+write and save changes.
