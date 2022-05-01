@@ -9,3 +9,31 @@ sudo gedit .bashrc
 Add to the end of the file a new line with the following:
 exec zsh
 write and save changes.
+
+4- Edit the .zshrc with the proper config in the repo.
+
+5- Install the syntax highlighting and the autosuggestions
+sudo apt install zsh-syntax-highlighting
+sudo apt install zsh-autosuggestions
+
+6- Install the sudo plugin
+wget https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/plugins/sudo/sudo.plugin.zsh
+Clone this in /usr/share/zsh-sudo
+
+7- Install snap for later packages
+
+sudo apt install snapd
+
+8- Install lsd and bat
+ 
+ sudo snap install lsd
+ sudo apt install bat
+ 
+ 9- Make some changes to the kitty.conf with the template from https://github.com/rxyhn/dotfiles
+ Place the config commands in the kitty.conf file in .config/kitty/kitty.conf
+ 
+ 10- Installing fonts
+ HackNerdFonts - Install FiraCode
+ Add "FiraCode NerdFont" to the font family section
+ 
+ 
